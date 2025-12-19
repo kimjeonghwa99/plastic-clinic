@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OO성형외과 | 자연스러움의 기준</title>
+  <meta name="description" content="상담부터 사후관리까지 책임지는 OO성형외과. 개인별 맞춤 진료로 자연스러운 결과를 지향합니다." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Pretendard 대체로 Noto Sans KR 사용 (무난) -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="badge">상담</span>
+        <a class="topbar__tel" href="tel:021234567">02-123-4567</a>
+      </div>
+      <div class="topbar__right">
+        <a class="btn btn--ghost btn--sm" href="#location">오시는 길</a>
+        <a class="btn btn--primary btn--sm" href="#consult">빠른 상담문의</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="홈으로">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__text">
+          <strong>OO성형외과</strong>
+          <small>PLASTIC SURGERY</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="주요 메뉴">
+        <a href="#about">병원소개</a>
+        <a href="#services">진료 안내</a>
+        <a href="#doctors">의료진</a>
+        <a href="#reviews">고객후기</a>
+        <a href="#location">오시는 길</a>
+      </nav>
+
+      <button class="menu-btn" type="button" aria-label="모바일 메뉴 열기" data-menu-btn>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div class="mnav" data-mnav>
+      <div class="container mnav__inner">
+        <a href="#about" data-mnav-link>병원소개</a>
+        <a href="#services" data-mnav-link>진료 안내</a>
+        <a href="#doctors" data-mnav-link>의료진</a>
+        <a href="#reviews" data-mnav-link>고객후기</a>
+        <a href="#location" data-mnav-link>오시는 길</a>
+        <a class="btn btn--primary" href="#consult" data-mnav-link>빠른 상담문의</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" aria-label="메인 배너">
+    <!-- 배경이미지는 CSS에서 교체 -->
+    <div class="container hero__inner">
+      <p class="hero__eyebrow">자연스러움을 지향하는 프리미엄 케어</p>
+      <h1 class="hero__title">
+        상담부터 사후관리까지<br />
+        오래 함께하는 성형외과
+      </h1>
+      <p class="hero__desc">
+        개인별 상태를 면밀히 분석하고, 안전과 회복을 고려한 맞춤 진료를 제공합니다.
+      </p>
+
+      <div class="hero__cta">
+        <a class="btn btn--primary btn--lg" href="#consult">상담 신청</a>
+        <a class="btn btn--ghost btn--lg" href="#services">진료 안내</a>
+      </div>
+
+      <div class="hero__meta">
+        <div class="meta-card">
+          <strong>1:1 맞춤 상담</strong>
+          <span>개인별 상태 분석</span>
+        </div>
+        <div class="meta-card">
+          <strong>안전 중심</strong>
+          <span>체계적 체크 프로세스</span>
+        </div>
+        <div class="meta-card">
+          <strong>사후관리</strong>
+          <span>회복·관리 프로그램</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__head">
+        <h2>병원소개</h2>
+        <p>표준화된 프로세스와 세심한 케어로, 자연스러운 결과를 지향합니다.</p>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="card card--padded">
+          <h3 class="card__title">진료 철학</h3>
+          <p class="card__text">
+            과한 변화보다 조화와 균형을 중요하게 생각합니다.
+            상담 단계부터 목표를 명확히 하고, 과정과 회복까지 안내합니다.
+          </p>
+          <ul class="checklist">
+            <li>충분한 상담과 설명</li>
+            <li>개인별 계획 수립</li>
+            <li>회복 단계 중심 케어</li>
+          </ul>
+        </div>
+
+        <div class="card card--image">
+          <!-- 이미지 URL을 카페24로 바꿔서 쓰세요 -->
+          <img
+            src="https://images.unsplash.com/photo-1580281658628-4c2d3d2d5c5a?q=80&w=1600&auto=format&fit=crop"
+            alt="클리닉 내부 이미지(예시)"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section section--alt" id="services">
+    <div class="container">
+      <div class="section__head">
+        <h2>진료 안내</h2>
+        <p>대표 진료 카테고리를 중심으로 구성했습니다. 실제 운영에 맞춰 항목을 교체하세요.</p>
+      </div>
+
+      <div class="cards">
+        <article class="service">
+          <h3>눈 성형</h3>
+          <p>개인 눈매와 비율을 고려한 디자인 중심 상담을 제공합니다.</p>
+          <a class="link" href="#consult">상담하기</a>
+        </article>
+        <article class="service">
+          <h3>코 성형</h3>
+          <p>얼굴 조화와 라인을 고려해 자연스러운 방향을 제안합니다.</p>
+          <a class="link" href="#consult">상담하기</a>
+        </article>
+        <article class="service">
+          <h3>리프팅/피부</h3>
+          <p>회복·유지 관리를 포함한 케어 플랜을 안내합니다.</p>
+          <a class="link" href="#consult">상담하기</a>
+        </article>
+        <article class="service">
+          <h3>체형/지방</h3>
+          <p>개인 컨디션과 목표에 맞춘 계획 수립을 지향합니다.</p>
+          <a class="link" href="#consult">상담하기</a>
+        </article>
+      </div>
+
+      <div class="notice">
+        <strong>안내</strong>
+        <span>
+          본 템플릿의 문구는 예시입니다. 실제 의료광고/표기 기준은 운영 지역 및 규정에 맞춰 검토 후 적용하세요.
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Doctors -->
+  <section class="section" id="doctors">
+    <div class="container">
+      <div class="section__head">
+        <h2>의료진</h2>
+        <p>대표원장 소개 영역입니다. 약력/학회/경력은 사실 기반으로만 기재하세요.</p>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="card card--image">
+          <img
+            src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=1600&auto=format&fit=crop"
+            alt="의료진 이미지(예시)"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="card card--padded">
+          <h3 class="card__title">홍길동 대표원장</h3>
+          <p class="card__text">
+            상담부터 회복 단계까지, 환자 커뮤니케이션과 사후관리 체계를 중요하게 생각합니다.
+          </p>
+          <ul class="bullets">
+            <li>진료 경력: (예시) 10년+</li>
+            <li>전문 분야: (예시) 눈/코/리프팅</li>
+            <li>학회/연구: (예시) 관련 학회 활동</li>
+          </ul>
+          <a class="btn btn--ghost" href="#consult">대표원장 상담 신청</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="section section--alt" id="reviews">
+    <div class="container">
+      <div class="section__head">
+        <h2>고객후기</h2>
+        <p>후기 영역은 과장 표현을 피하고, 사실 기반/동의 받은 내용만 사용하세요.</p>
+      </div>
+
+      <div class="quotes">
+        <figure class="quote">
+          <blockquote>상담이 꼼꼼했고, 회복 단계 안내가 체계적이었습니다.</blockquote>
+          <figcaption>— 실제 후기 예시</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>과한 권유 없이 제 상황에 맞게 설명해 주셔서 신뢰가 갔습니다.</blockquote>
+          <figcaption>— 실제 후기 예시</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>예약부터 안내까지 동선이 편했고, 관리 프로그램이 만족스러웠어요.</blockquote>
+          <figcaption>— 실제 후기 예시</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Consult -->
+  <section class="section" id="consult">
+    <div class="container">
+      <div class="section__head">
+        <h2>상담 신청</h2>
+        <p>연락처/희망 진료를 받는 간단 폼입니다. (현재는 데모: 전송 기능 없음)</p>
+      </div>
+
+      <div class="card card--padded">
+        <form class="form" id="consultForm">
+          <div class="form__row">
+            <label>
+              <span>이름</span>
+              <input name="name" type="text" placeholder="홍길동" required />
+            </label>
+            <label>
+              <span>연락처</span>
+              <input name="phone" type="tel" placeholder="010-1234-5678" required />
+            </label>
+          </div>
+
+          <div class="form__row">
+            <label>
+              <span>희망 진료</span>
+              <select name="service" required>
+                <option value="" selected disabled>선택하세요</option>
+                <option>눈 성형</option>
+                <option>코 성형</option>
+                <option>리프팅/피부</option>
+                <option>체형/지방</option>
+                <option>기타</option>
+              </select>
+            </label>
+            <label>
+              <span>희망 시간</span>
+              <select name="time" required>
+                <option value="" selected disabled>선택하세요</option>
+                <option>평일 오전</option>
+                <option>평일 오후</option>
+                <option>토요일</option>
+              </select>
+            </label>
+          </div>
+
+          <label class="form__full">
+            <span>문의 내용</span>
+            <textarea name="message" rows="4" placeholder="간단히 남겨주세요."></textarea>
+          </label>
+
+          <label class="agree">
+            <input type="checkbox" required />
+            <span>개인정보 수집·이용에 동의합니다. (데모)</span>
+          </label>
+
+          <div class="form__actions">
+            <button class="btn btn--primary btn--lg" type="submit">상담 요청 보내기</button>
+            <a class="btn btn--ghost btn--lg" href="tel:021234567">전화로 상담</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location -->
+  <section class="section" id="location">
+    <div class="container">
+      <div class="section__head">
+        <h2>오시는 길</h2>
+        <p>지도는 나중에 카카오/네이버 지도 임베드로 교체하면 됩니다.</p>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="card card--padded">
+          <h3 class="card__title">주소</h3>
+          <p class="card__text">
+            서울시 강남구 테헤란로 123, 10F (예시)<br />
+            <span class="muted">진료시간: 평일 10:00-19:00 / 토 10:00-16:00 (예시)</span>
+          </p>
+
+          <div class="info">
+            <div><strong>전화</strong> <a href="tel:021234567">02-123-4567</a></div>
+            <div><strong>상담</strong> <a href="#consult">상담 폼</a></div>
+          </div>
+        </div>
+
+        <div class="card card--map" aria-label="지도 자리(예시)">
+          <div class="map-placeholder">
+            지도 영역 (추후 임베드)
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <strong>OO성형외과</strong>
+        <p class="muted">
+          사업자등록번호: 000-00-00000 | 대표: 홍길동 | 주소: 서울시 강남구 (예시)<br />
+          Copyright © OO Plastic Clinic. All rights reserved.
+        </p>
+      </div>
+      <a class="to-top" href="#top">TOP</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
