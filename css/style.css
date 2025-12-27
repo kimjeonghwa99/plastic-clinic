@@ -159,10 +159,6 @@ img{max-width:100%; display:block}
   align-items:center;
   border-bottom:1px solid var(--line);
 
-  /* 여기만 카페24 이미지로 바꾸면 됨 */
-  background:
-    url("https://images.unsplash.com/photo-1556228578-0d85b1a4d571?q=80&w=2000&auto=format&fit=crop")
-    center/cover no-repeat;
 }
 .hero__overlay{
   position:absolute; inset:0;
