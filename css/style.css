@@ -162,13 +162,11 @@ img{max-width:100%; display:block}
 }
 .hero__overlay{
   position:absolute; inset:0;
-  background:linear-gradient(
-    90deg,
-    rgba(255,255,255,.92) 0%,
-    rgba(255,255,255,.78) 40%,
-    rgba(255,255,255,.15) 100%
-  );
+  background: rgba(255,255,255,.35); /* 너무 진하면 또 하얘져요 */
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
 }
+
 .hero__inner{
   position:relative;
   padding:70px 0 54px;
